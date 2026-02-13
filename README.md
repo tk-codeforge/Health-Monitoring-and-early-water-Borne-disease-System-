@@ -10,3 +10,35 @@ Analyzes contamination levels
 Predicts potential disease risk
 Alerts users and authorities
 Visualizes data using dashboards
+
+**Project structure**
+health-monitoring-system/
+├── backend/
+│   ├── models/
+│   │   ├── User.js
+│   │   ├── WaterData.js
+│   │   └── Symptom.js
+│   ├── routes/
+│   │   ├── auth.js
+│   │   ├── waterData.js
+│   │   └── symptoms.js
+│   ├── middleware/
+│   │   └── auth.js
+│   ├── server.js
+│   └── package.json
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Login.js
+│   │   │   ├── Dashboard.js
+│   │   │   ├── WaterInput.js
+│   │   │   ├── SymptomInput.js
+│   │   │   └── Alert.js
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   └── services/
+│   │       └── api.js
+│   ├── public/
+│   │   └── index.html
+│   └── package.json
+└── README.md
