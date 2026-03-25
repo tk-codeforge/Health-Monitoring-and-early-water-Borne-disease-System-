@@ -86,6 +86,7 @@ pip install -r requirements.txt
 python app.py
 
 3️⃣ Frontend Setup (React)
+
 cd frontend
 npm install
 npm start
