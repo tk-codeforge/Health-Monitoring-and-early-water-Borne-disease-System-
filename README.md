@@ -25,55 +25,46 @@ Built using:
 
 ## 🏗️ Project Structure
 
+```text
 Early Water Borne Disease System/
-│
 ├── backend/
-│ ├── ai/
-│ │ ├── data/
-│ │ │ ├── water_quality.csv
-│ │ │ └── symptoms_disease.csv
-│ │ ├── app.py
-│ │ ├── model.py
-│ │ ├── train_symptoms.py
-│ │ ├── model_location.pkl
-│ │ ├── model_symptoms.pkl
-│ │ └── encoders_location.pkl
-│ │
-│ ├── config/
-│ │ └── db.js
-│ │
-│ ├── controllers/
-│ │ ├── authController.js
-│ │ └── predictionController.js
-│ │
-│ ├── models/
-│ │ └── User.js
-│ │
-│ ├── routes/
-│ │ ├── authRoutes.js
-│ │ └── predictionRoutes.js
-│ │
-│ ├── server.js
-│ ├── package.json
-│ └── node_modules/
-│
+│   ├── ai/
+│   │   ├── data/
+│   │   │   ├── water_quality.csv
+│   │   │   └── symptoms_disease.csv
+│   │   ├── app.py
+│   │   ├── model.py
+│   │   ├── train_symptoms.py
+│   │   ├── model_location.pkl
+│   │   ├── model_symptoms.pkl
+│   │   └── encoders_location.pkl
+│   ├── config/
+│   │   └── db.js
+│   ├── controllers/
+│   │   ├── authController.js
+│   │   └── predictionController.js
+│   ├── models/
+│   │   └── User.js
+│   ├── routes/
+│   │   ├── authRoutes.js
+│   │   └── predictionRoutes.js
+│   ├── server.js
+│   └── package.json
 ├── frontend/
-│ ├── public/
-│ ├── src/
-│ │ ├── components/
-│ │ │ ├── Dashboard.js
-│ │ │ ├── Login.js
-│ │ │ ├── Signup.js
-│ │ │ └── Symptoms.js
-│ │ │
-│ │ ├── App.js
-│ │ ├── index.js
-│ │ └── App.css
-│ │
-│ ├── package.json
-│ └── node_modules/
-│
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Dashboard.js
+│   │   │   ├── Login.js
+│   │   │   ├── Signup.js
+│   │   │   └── Symptoms.js
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   └── App.css
+│   └── package.json
 └── README.md
+
+🚀 Installation & Setup
 
 1️⃣ Backend Setup (Node.js)
 cd backend
@@ -86,7 +77,6 @@ pip install -r requirements.txt
 python app.py
 
 3️⃣ Frontend Setup (React)
-
 cd frontend
 npm install
 npm start
