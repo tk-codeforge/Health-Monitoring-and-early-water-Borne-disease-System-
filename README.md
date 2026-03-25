@@ -80,6 +80,7 @@ python app.py
 cd frontend
 npm install
 npm start
+'''
 
 👨‍💻 Author
 Tanmay Kumar
